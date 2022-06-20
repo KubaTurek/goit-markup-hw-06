@@ -722,21 +722,20 @@ body {
   -webkit-appearance: none;
   appearance: none;
   display: flex; align-items: center;
-}
+} 
+
 .modal-label-checkbox::before {content: ""; display: block;
 width: 16px; height: 16px;
 border: 1px solid #212121; margin-right: 9px;}
 .modal-checkbox:checked + .modal-label-checkbox::before {background-color: var(--brand-color);
-border: none; display: block; background-image: url(../images/icon-check.svg);
+border: none; display: block; background-image: url(.."/images/checkbox.svg");
 background-repeat: no-repeat;
 background-position: center center;
-border-radius: 2px;
-fill: rgb(30, 28, 28);}
+border-radius: 2px;}
+
 .modal-input:focus-within {border:1px solid var(--brand-color); fill: var(--brand-color); outline: none;}
-.modal-input {background-repeat: no-repeat;
-  background-position: left .7rem top 50%, 0 0;
-  background-image: url("images/icons.svg#icon-phone-black");}
-.modal-label-checkbox {display: flex; justify-content: center;
+
+.modal-label-checkbox {display: flex; justify-content: center; align-items: center;
  
 }
 .modal-button {
