@@ -728,7 +728,7 @@ body {
 width: 16px; height: 16px;
 border: 1px solid #212121; margin-right: 9px;}
 .modal-checkbox:checked + .modal-label-checkbox::before {background-color: var(--brand-color);
-border: none; display: block; background-image: url(.."/images/checkbox.svg");
+border: none; display: block; background-image: url(../images/icon-check.svg);
 background-repeat: no-repeat;
 background-position: center center;
 border-radius: 2px;}
